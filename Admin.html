@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        /* Global Styles */
+        :root {
+            --primary-color: #800080; /* Purple */
+            --secondary-color: #28a745; /* Green */
+            --background-color: #f0e6f6; /* Light purple */
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: var(--primary-color);
+            width: 100%;
+            padding: 20px 0;
+            color: white;
+            font-size: 1.5rem;
+            box-shadow: var(--box-shadow);
+        }
+
+        /* Website Name */
+        .website-name {
+            margin: 20px 0;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #6a006a; /* Darker purple */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        Medical Admin Dashboard
+    </div>
+
+    <!-- Website Name -->
+    <div class="website-name">
+        khuzuu.com
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="consult.html">Consult</a>
+        <a href="guide.html">Guide</a>
+    </div>
+</body>
+</html>
